@@ -9,7 +9,7 @@
 
 
 namespace bt = boost::posix_time; 
-const size_t SIZE = 1e6; 
+const size_t SIZE = 1e5; 
 const int OPERATIONS = 10000; 
 
 void sum_task(size_t start, size_t end, double * result) { 
